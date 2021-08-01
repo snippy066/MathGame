@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
@@ -18,10 +18,10 @@
         android:layout_marginRight="40dp"
         android:backgroundTint="#0f994b"
         android:gravity="center"
-        android:text="Button" />
+        android:text="Addition" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
@@ -29,10 +29,10 @@
         android:layout_marginRight="40dp"
         android:backgroundTint="#0f994b"
         android:gravity="center"
-        android:text="Button" />
+        android:text="Subtraction" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
@@ -40,5 +40,5 @@
         android:layout_marginRight="40dp"
         android:backgroundTint="#0f994b"
         android:gravity="center"
-        android:text="Button" />
+        android:text="Multiplication" />
 </LinearLayout>
