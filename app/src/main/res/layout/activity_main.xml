@@ -12,21 +12,33 @@
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:backgroundTint="#dff1f5"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#0f994b"
+        android:gravity="center"
         android:text="Button" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:backgroundTint="#dff1f5"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#0f994b"
+        android:gravity="center"
         android:text="Button" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:backgroundTint="#dff1f5"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#0f994b"
+        android:gravity="center"
         android:text="Button" />
 </LinearLayout>
