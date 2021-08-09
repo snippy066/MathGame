@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent in=new Intent(MainActivity.this,addGame.class);
+                startActivity(in);
             }
         });
 
