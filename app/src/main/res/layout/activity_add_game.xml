@@ -14,7 +14,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textSc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -23,7 +23,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textVisc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -32,7 +32,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textLi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -41,7 +41,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textLiCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -70,20 +70,54 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textque"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
         android:text="TextView"
-        android:textColor="@color/white"
-        android:textSize="26dp" />
+        android:textColor="#020452"
+        android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/textAns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:ems="10"
+        android:gravity="center"
+        android:hint="write your answere here"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Name"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4245f5"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4245f5"
+            android:text="Next Question" />
+    </LinearLayout>
 
 </LinearLayout>
