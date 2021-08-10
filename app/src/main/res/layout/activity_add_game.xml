@@ -23,7 +23,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textVisc"
+            android:id="@+id/score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -41,7 +41,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/textLiCount"
+            android:id="@+id/life"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -59,7 +59,7 @@
             android:textColor="@android:color/holo_red_light" />
 
         <TextView
-            android:id="@+id/txtTimeView"
+            android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
