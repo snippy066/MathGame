@@ -44,7 +44,7 @@ public class addGame extends AppCompatActivity {
                     int count=Integer.parseInt(score.getText().toString());
                     count+=10;
 
-                    score.setText(count);
+                    score.setText(count+"");
 
                     que.setText("Congratulations your answer is true");
                 }
@@ -52,7 +52,7 @@ public class addGame extends AppCompatActivity {
                     int usrli=Integer.parseInt(life.getText().toString());
                     usrli--;
 
-                    life.setText(usrli);
+                    life.setText(usrli+"");
 
                     que.setText("Sorry! your answer is wrong try again");
                 }
