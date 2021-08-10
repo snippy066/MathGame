@@ -32,6 +32,8 @@ public class addGame extends AppCompatActivity {
         ok=findViewById(R.id.btnOk);
         next=findViewById(R.id.btnNext);
 
+        gameStart(); //calling logic of the game
+
         //ok button listener
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +51,10 @@ public class addGame extends AppCompatActivity {
                 else{
                     int usrli=Integer.parseInt(life.getText().toString());
                     usrli--;
-                    
+
+                    life.setText(usrli);
+
+                    que.setText("Sorry! your answer is wrong try again");
                 }
 
             }
