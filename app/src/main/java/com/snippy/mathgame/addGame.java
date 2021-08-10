@@ -64,7 +64,7 @@ public class addGame extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                gameStart();
             }
         });
 
