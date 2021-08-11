@@ -42,20 +42,20 @@ public class addGame extends AppCompatActivity {
                 userans=Integer.parseInt(ans.getText().toString());
 
                 if(userans==correct_ans){
+                    que.setText("Congratulations your answer is true");
                     count=Integer.parseInt(score.getText().toString());
                     count+=10;
 
                     score.setText(count+"");
 
-                    que.setText("Congratulations your answer is true");
                 }
                 else{
+                    que.setText("Sorry! your answer is wrong try again");
                     usrli=Integer.parseInt(life.getText().toString());
                     usrli--;
 
                     life.setText(usrli+"");
 
-                    que.setText("Sorry! your answer is wrong try again");
                 }
             }
         });
