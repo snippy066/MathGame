@@ -14,7 +14,7 @@ public class addGame extends AppCompatActivity {
 
     TextView score,life,time,que;
     EditText ans;
-    Button ok,next;
+    Button okay,next;
 
     Random rnd=new Random();
     int num1,num2,correct_ans;
@@ -29,13 +29,14 @@ public class addGame extends AppCompatActivity {
         time=findViewById(R.id.txtTime);
         que=findViewById(R.id.textque);
         ans=findViewById(R.id.textAns);
-        ok=findViewById(R.id.btnOk);
-        next=findViewById(R.id.btnNext);
+        okay=(Button)findViewById(R.id.okBtn);
+        next=(Button)findViewById(R.id.nextBtn);
 
         gameStart(); //calling logic of the game
 
         //ok button listener
-        ok.setOnClickListener(new View.OnClickListener() {
+
+        okay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int userans=Integer.parseInt(ans.getText().toString());
@@ -56,18 +57,17 @@ public class addGame extends AppCompatActivity {
 
                     que.setText("Sorry! your answer is wrong try again");
                 }
-
             }
         });
 
         //next button listener
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ans.setText("");
-                gameStart();
-            }
-        });
+//        next.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                ans.setText("");
+//                gameStart();
+//            }
+//        });
 
 
     }
