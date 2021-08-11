@@ -18,7 +18,7 @@ public class addGame extends AppCompatActivity {
 
     Random rnd=new Random();
     int num1,num2,correct_ans;
-
+    int userans,count, usrli;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,10 +39,10 @@ public class addGame extends AppCompatActivity {
         okay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int userans=Integer.parseInt(ans.getText().toString());
+                userans=Integer.parseInt(ans.getText().toString());
 
                 if(userans==correct_ans){
-                    int count=Integer.parseInt(score.getText().toString());
+                    count=Integer.parseInt(score.getText().toString());
                     count+=10;
 
                     score.setText(count+"");
@@ -50,7 +50,7 @@ public class addGame extends AppCompatActivity {
                     que.setText("Congratulations your answer is true");
                 }
                 else{
-                    int usrli=Integer.parseInt(life.getText().toString());
+                    usrli=Integer.parseInt(life.getText().toString());
                     usrli--;
 
                     life.setText(usrli+"");
