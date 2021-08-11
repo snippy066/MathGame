@@ -61,13 +61,13 @@ public class addGame extends AppCompatActivity {
         });
 
         //next button listener
-//        next.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ans.setText("");
-//                gameStart();
-//            }
-//        });
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ans.setText("");
+                gameStart();
+            }
+        });
 
 
     }
